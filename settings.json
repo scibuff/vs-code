@@ -1,0 +1,43 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "GitBash": {
+            "path": [
+                "C:\\usr\\git\\bin\\bash.exe"
+            ],
+            "args": [],
+            "icon": "terminal-bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "GitBash",
+    
+    "editor.detectIndentation": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.suggestSmartCommit": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.autoImports": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "terminal.integrated.cwd": "${fileWorkspaceFolder}",
+    "typescript.suggest.autoImports": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": -1,
+    "workbench.iconTheme": "vscode-icons",
+}
